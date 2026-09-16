@@ -1,0 +1,26 @@
+package com.mycompany.sesion7.poo;
+public class Sesion7POO {
+
+    public static void main(String[] args) {
+        Libro libro1=new Libro();
+        libro1.setTitulo("El Quijote De La Mancha");
+        libro1.setAutor("Cervantes");
+        libro1.setTitulo("El Quijote De La Mancha");
+        libro1.setGenero("Novela");
+        libro1.setNumPaginas(600);
+        System.out.println(libro1.getTitulo());
+        System.out.println(libro1.getGenero());
+        System.out.println(libro1.getNumPaginas());
+        libro1.setTitulo("Don Quijote De La Mancha");
+        System.out.println(libro1.getTitulo());
+        System.out.println("\n DETALLES DEL LIBRO:");
+        System.out.println(libro1.verDetalle());
+        
+        System.out.println("\nLIBRO PRESTADO A:");
+        System.out.println(libro1.prestar("Iker"));
+        System.out.println("\nPRESTADO Y DEVUELTO");
+        System.out.println(libro1.prestarYDevolver("Iker"));
+        System.out.println("\nTIEMPO");
+        System.out.println(libro1.calcularTiempoLectura(30, 2.5f));
+    }
+}
