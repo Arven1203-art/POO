@@ -1,0 +1,39 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        System.out.println("=== PRUEBAS DE ESTUDIANTES ===");
+        Estudiante est1 = new Estudiante("Mateo", 19, 4);
+        Estudiante est2 = new Estudiante("Valentina", 21, 6);
+        
+        est1.mostrarInfo();
+        est2.mostrarInfo();
+        
+        // Acceso directo con la sintaxis objeto.atributo
+        System.out.println("Acceso directo atributo (est1.nombre): " + est1.nombre);
+        System.out.println("Acceso directo atributo (est2.nombre): " + est2.nombre);
+        
+        
+        System.out.println("\n=== PRUEBAS DE LIBROS ===");
+        Libro libro1 = new Libro("El Principito", "Antoine de Saint-Exupéry", 96);
+        Libro libro2 = new Libro("Rayuela", "Julio Cortázar", 600);
+        
+        libro1.mostrarInfo();
+        libro2.mostrarInfo();
+        
+        // Acceso directo por punto
+        System.out.println("Acceso directo atributo (libro1.titulo): " + libro1.titulo);
+        System.out.println("Acceso directo atributo (libro2.titulo): " + libro2.titulo);
+        
+        
+        System.out.println("\n=== PRUEBAS DE MASCOTAS ===");
+        Mascota masc1 = new Mascota("Toby", "Perro", 4);
+        Mascota masc2 = new Mascota("Michi", "Gato", 3);
+        
+        masc1.mostrarInfo();
+        masc2.mostrarInfo();
+        
+        // Acceso directo por punto
+        System.out.println("Acceso directo atributo (masc1.especie): " + masc1.especie);
+        System.out.println("Acceso directo atributo (masc2.especie): " + masc2.especie);
+    }
+}
