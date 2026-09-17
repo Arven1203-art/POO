@@ -1,0 +1,41 @@
+package parcial;
+public class Parcial {
+    public static void main(String[] args) {
+        Empleado empleado1 = new Empleado ();
+        empleado1.setNombre("Laura Gomez");
+        empleado1.setCargo("Analista");
+       empleado1.setSalarioBase(2000000);
+       empleado1.setAnosExperiencia(5);
+        System.out.println(empleado1.getNombre());
+        System.out.println(empleado1.getCargo());
+        System.out.println(empleado1.getSalarioBase());
+        System.out.println(empleado1.getAnosExperiencia());
+        System.out.println(empleado1.verDetalle());
+        System.out.println(empleado1.trabajar(8));
+        System.out.println(empleado1.TomarDescanso());
+        System.out.println(empleado1.TrabajarYDescansar(8));
+        System.out.println(empleado1.CalcularBono(0.10f));
+        System.out.println(empleado1.CalcularBono(10));
+        System.out.println(empleado1.calcularSalarioTotal(10, 23));
+        
+        Empleado empleado2 = new Empleado ();
+        empleado2.setNombre("Fernando Perez");
+        empleado2.setCargo("Marketing");
+       empleado2.setSalarioBase(2000000);
+       empleado2.setAnosExperiencia(5);
+        System.out.println(empleado2.getNombre());
+        System.out.println(empleado2.getCargo());
+        System.out.println(empleado2.getSalarioBase());
+        System.out.println(empleado2.getAnosExperiencia());
+        System.out.println(empleado2.verDetalle());
+        System.out.println(empleado2.trabajar(8));
+        System.out.println(empleado2.TomarDescanso());
+        System.out.println(empleado2.TrabajarYDescansar(8));
+        System.out.println(empleado2.CalcularBono(0.10f));
+        System.out.println(empleado2.CalcularBono(10));
+        System.out.println(empleado2.calcularSalarioTotal(10, 23));
+   }
+    
+}
+IKER ESTEBAN FUENTES TORRES
+DANIEL ALEJANDRO GUEVARA ROSAS
