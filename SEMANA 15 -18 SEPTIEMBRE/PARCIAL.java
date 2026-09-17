@@ -69,7 +69,8 @@ public class Empleado {
     
     }
     public double calcularSalarioTotal(double bono, int diasTrabajados){
-        return (SalarioBase/30)* diasTrabajados + bono ;
-        
+        return (SalarioBase/30)* diasTrabajados + bono ;        
     }
 }
+IKER ESTEBAN FUENTES TORRES
+DANIEL ALEJANDRO GUEVARA ROSAS
