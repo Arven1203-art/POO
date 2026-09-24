@@ -1,0 +1,23 @@
+package retroalimentacion;
+
+public class Retroalimentacion {
+public static void main(String[] args) {
+    Empleado empleado1 = new Empleado();
+    empleado1.setNombre("Iker Fuentes");
+    empleado1.setCargo("Marketing");
+    empleado1.setSalarioBase(2000000);
+    empleado1.setAnosDeExperiencia(3);
+    System.out.println(empleado1.getNombre);
+    System.out.println(empleado1.getCargo);
+    System.out.println(empleado1.getSalarioBase);
+    System.out.println(empleado1.getAnosExperiencia);
+    System.out.println(empleado1.getVerDetalle());
+    System.out.println(empleado1.getTrabajar());
+    System.out.println(empleado1.getDescansar());
+    System.out.println(empleado1.getDescansarTrabajar());
+    System.out.println(empleado1.getCalcularBono());
+    System.out.println(empleado1.getCalcularBono());
+    System.out.println(empleado1.getCalcularSalarioTotal());
+    }
+    
+}
