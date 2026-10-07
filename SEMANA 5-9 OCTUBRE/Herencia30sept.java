@@ -34,7 +34,13 @@ Gato gato2 = new Gato("Mamifero", "Persa", "Gris");
 Gato gato3 = new Gato("Mamifero", "Angora", "Negro");
 
 gato1.maullar();
+gato1.jugar();
+gato1.mostrarInformacion();
+gato2.maullar();
 gato2.jugar();
+gato2.mostrarInformacion();
+gato3.maullar();
+gato3.jugar();
 gato3.mostrarInformacion();
 
 Pajaro pajaro1 = new Pajaro("Ave", "Loro", "Verde");
@@ -42,7 +48,13 @@ Pajaro pajaro2 = new Pajaro("Ave", "Canario", "Amarillo");
 Pajaro pajaro3 = new Pajaro("Ave", "Aguila", "Cafe");
 
 pajaro1.volar();
+pajaro1.cantar();
+pajaro1.mostrarInformacion();
+pajaro2.volar();
 pajaro2.cantar();
+pajaro2.mostrarInformacion();
+pajaro3.volar();
+pajaro3.cantar();
 pajaro3.mostrarInformacion();
     }
 }
